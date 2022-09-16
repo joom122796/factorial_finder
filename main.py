@@ -1,5 +1,4 @@
 num = int(input('Enter a number into the factorial finder: '))
-
 def factorial(number):
   factorial = 1
   while number < 0:
@@ -11,6 +10,4 @@ def factorial(number):
       for x in range(1,number+1):
         factorial = factorial*x
       print(f'The factorial of {number} is {factorial}')
-
-
 factorial(num)
